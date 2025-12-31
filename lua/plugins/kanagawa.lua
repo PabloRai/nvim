@@ -1,5 +1,5 @@
 return {
-	
+  
 "rebelot/kanagawa.nvim",
 config = function()
 -- Default options:
@@ -32,7 +32,7 @@ require('kanagawa').setup({
 vim.cmd("colorscheme kanagawa")
 end,
 build = function()
-	vim.cmd("KanagawaCompile")
+  vim.cmd("KanagawaCompile")
 end,
 
 }
