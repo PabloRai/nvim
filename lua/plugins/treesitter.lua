@@ -4,6 +4,6 @@ return {
   build = ":TSUpdate",
   config = function()
     local treesitter = require("nvim-treesitter")
-    treesitter.install({ "go", "lua", "markdown", "c", "html", "kotlin" })
+    treesitter.install({ "go", "lua", "markdown", "c", "html", "kotlin", "gomod", "gowork", "gosum" })
   end,
 }
